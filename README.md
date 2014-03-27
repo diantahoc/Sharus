@@ -21,4 +21,4 @@ Sharus use the Newtonsoft JSON library - http://json.codeplex.com/.
 License
 --------
 
-BSD-like (in terms of warranties, liabilities, etc) except you don't need to give credits, but I would be thankful if you do.
+Please see the LICENSE file.
