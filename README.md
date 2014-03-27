@@ -120,9 +120,9 @@ This is a dummy interface used to hold all possible types of metadata.
 
 Currently, Sharus support 3 types of metadata:
 
-`DimensionMetaData` - A class that have two members (Height and Width, both are `int`)
-`AudioAvailableMetaData` - A dummy class, if it is inside the `IMetadata` array in the `HashEntry` class, then this hash have an audio.
-`VideoAvailableMetaData` - Same as `AudioAvailableMetaData`, but to indicate video availability.
+* `DimensionMetaData` - A class that have two members (Height and Width, both are `int`)
+* `AudioAvailableMetaData` - A dummy class, if it is inside the `IMetadata` array in the `HashEntry` class, then this hash have an audio.
+* `VideoAvailableMetaData` - Same as `AudioAvailableMetaData`, but to indicate video availability.
 
 ####The `IFlags` interface:
 
