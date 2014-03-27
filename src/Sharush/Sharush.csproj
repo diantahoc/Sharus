@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSharush.cs" />
+    <Compile Include="Sharush.cs" />
     <Compile Include="DataTypes\FileEntry.cs" />
     <Compile Include="DataTypes\Flags\IFlags.cs" />
     <Compile Include="DataTypes\Flags\VideoFlags.cs" />

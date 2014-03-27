@@ -17,9 +17,14 @@ namespace Sharush
 {
     public static class Sharush
     {
-        private static string UserAgent { get { return "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)"; } }
+        private static string UserAgent { get { return string.Format("Sharus .NET libray ({0})", Environment.OSVersion.Platform); } }
 
-        private static string ApplicationUrl { get { return "https://mediacru.sh"; } }
+        public static string ApplicationUrl { get; set; }
+
+        static Sharush() 
+        {
+            ApplicationUrl = "https://mediacru.sh";
+        }
 
         public static KeyValuePair<AlbumMakeStatus, string> MakeAlbum(string[] hashes)
         {
