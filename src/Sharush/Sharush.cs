@@ -17,11 +17,11 @@ namespace Sharush
 {
     public static class Sharush
     {
-        private static string UserAgent { get { return string.Format("Sharus .NET libray ({0})", Environment.OSVersion.Platform); } }
+        private static string UserAgent { get { return string.Format("Sharus .NET library ({0})", Environment.OSVersion.Platform); } }
 
         public static string ApplicationUrl { get; set; }
 
-        static Sharush() 
+        static Sharush()
         {
             ApplicationUrl = "https://mediacru.sh";
         }
@@ -114,7 +114,7 @@ namespace Sharush
 
             }
 
-            return new KeyValuePair<AlbumMakeStatus, string>(AlbumMakeStatus.Unkown, null);;
+            return new KeyValuePair<AlbumMakeStatus, string>(AlbumMakeStatus.Unkown, null); ;
         }
 
         public static HashInfo GetHashInfo(string hash)
@@ -395,7 +395,6 @@ namespace Sharush
                 }
                 else { throw new Exception("Empty server response"); }
             }
-            return null;
         }
 
         public static IFlags GetHashFlags(string hash)
